@@ -1,0 +1,20 @@
+[
+    {
+        "algorithm": "xor",
+        "source": "gradient.png"
+    },
+    {
+        "algorithm": "aes-ecb",
+        "source": "gradient.png"
+    },
+    {
+        "algorithm": "aes-ctr",
+        "nonce": "ff13378439b00c4c89c0754530916882",
+        "source": "gradient.png"
+    },
+    {
+        "algorithm": "aes-ctr",
+        "nonce": "ff13378439b00c4c89c0754530916882",
+        "source": "gradient.png"
+    }
+]
