@@ -1,0 +1,20 @@
+[
+    {
+        "algorithm": "xor",
+        "source": "checkerboard.png"
+    },
+    {
+        "algorithm": "aes-ecb",
+        "source": "checkerboard.png"
+    },
+    {
+        "algorithm": "aes-ctr",
+        "nonce": "a17d443cb0d28a1338f3ae38c96408b3",
+        "source": "checkerboard.png"
+    },
+    {
+        "algorithm": "aes-ctr",
+        "nonce": "a17d443cb0d28a1338f3ae38c96408b3",
+        "source": "checkerboard.png"
+    }
+]
