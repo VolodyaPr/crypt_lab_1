@@ -1,0 +1,42 @@
+[
+    {
+        "algorithm": "xor",
+        "source": "gradient.png",
+        "encrypted_file": "imgs\\enc_xor_gradient.png",
+        "decrypted_file": "imgs\\dec_xor_gradient.png"
+    },
+    {
+        "algorithm": "aes-ecb",
+        "source": "gradient.png",
+        "encrypted_bin": "results\\enc_ecb_gradient.bin",
+        "encrypted_preview_png": "imgs\\enc_ecb_gradient.png",
+        "decrypted_file": "imgs\\dec_ecb_gradient.png"
+    },
+    {
+        "algorithm": "aes-ctr",
+        "source": "gradient.png",
+        "nonce": "cdbfc704d4efe3a97b2bfdfa3c47686c",
+        "encrypted_file": "imgs\\enc_ctr_gradient.png",
+        "decrypted_file": "imgs\\dec_ctr_gradient.png"
+    },
+    {
+        "algorithm": "xor",
+        "source": "checkerboard.png",
+        "encrypted_file": "imgs\\enc_xor_checkerboard.png",
+        "decrypted_file": "imgs\\dec_xor_checkerboard.png"
+    },
+    {
+        "algorithm": "aes-ecb",
+        "source": "checkerboard.png",
+        "encrypted_bin": "results\\enc_ecb_checkerboard.bin",
+        "encrypted_preview_png": "imgs\\enc_ecb_checkerboard.png",
+        "decrypted_file": "imgs\\dec_ecb_checkerboard.png"
+    },
+    {
+        "algorithm": "aes-ctr",
+        "source": "checkerboard.png",
+        "nonce": "08340ba13d4266e15d9224d5cb606eba",
+        "encrypted_file": "imgs\\enc_ctr_checkerboard.png",
+        "decrypted_file": "imgs\\dec_ctr_checkerboard.png"
+    }
+]
