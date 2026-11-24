@@ -138,7 +138,7 @@ def run_lab_experiment():
 
     # Проверка обратимости (из файлов)
     print(" Проверка обратимости:")
-    print(f"    - XOR     : {'СОВПАДАЕТ' if hash_xor_ok else 'FAIL'}")
+    print(f"    - Потоковый XOR : {'СОВПАДАЕТ' if hash_xor_ok else 'FAIL'}")
     print(f"    - AES-ECB : {'СОВПАДАЕТ' if hash_ecb_ok else 'FAIL'}")
     print(f"    - AES-CTR : {'СОВПАДАЕТ' if hash_ctr_ok else 'FAIL'}")
     print("-" * 78)
